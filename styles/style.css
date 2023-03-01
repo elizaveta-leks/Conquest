@@ -29,6 +29,7 @@ ul {
 .page-header__main-nav {
   display: flex;
 }
+
 .main-nav__list {
   display: flex;
   margin: 0;
@@ -48,6 +49,7 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 .promo {
   font-family: "Playfair Display", serif;
   color: #1b1a17;
@@ -309,6 +311,7 @@ ul {
   gap: 18px;
   margin-bottom: 63px;
 }
+
 .page-footer {
   background-color: #444240;
   display: flex;

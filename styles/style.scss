@@ -28,37 +28,16 @@ ul {
     &__main-nav {
         display: flex;
     }
-
-    // .page-header__user-nav
-
-    &__user-nav {
-        
-    }
 }
 
 .main-nav {
-
-    // .main-nav__logo
-
-    &__logo {
-    }
-        
-
     &__list {
-        
         display: flex;
         margin: 0;
         padding: 0;
         gap: 65px;
         margin-left: 266px;
     }
-
-    // .main-nav__item
-
-    &__item {}
-
-    // .main-nav__link
-
     &__link {
         font-size: 14px;
         line-height: 16px;
@@ -66,33 +45,14 @@ ul {
     }
 }
 
-.logo {
-
-    // .logo__img
-
-    &__img {}
-}
-
 .user-nav {
-
     &__list {
         display: flex;
         gap: 23px;
         margin: 0;
         padding: 0;
     }
-
-    // .user-nav__item
-
-    &__item {}
-
-    // .user-nav__link
-
-    &__link {}
 }
-
-.main {}
-
 .promo {
     font-family: "Playfair Display", serif;
     color: #1b1a17;
@@ -107,18 +67,12 @@ ul {
         padding: 0;
         margin-top: 236px;
     }
-
-    // .promo__sub-title
-
     &__sub-title {
         font-size: 30px;
         line-height: 40px;
         margin: 0;
         margin-top: 16px;
     }
-
-    // .promo__description
-
     &__description {
         font-family: "Roboto", sans-serif;
         font-weight: 300;
@@ -127,23 +81,11 @@ ul {
         color: rgba(27, 26, 23, 0.82);
         margin-top: 39px;
     }
-
-    // .promo__link
-
-    &__link {
-        
-    }
-
-    // .promo__img
-
     &__img {
         position: absolute;
         right: 300px;
         top: 76px;
-        
     }
-
-    // .promo__price
 
     &__price {
         font-family: 'Prata', serif;
@@ -197,10 +139,8 @@ ul {
         padding: 26px 38px;
         background-color: #444240;
         margin: 0;
-    
     }   
 }
-
 
 .popular {
     margin: 0;
@@ -218,11 +158,7 @@ ul {
         line-height: 19px;
         color: #444240;
         border-bottom: 1px solid #c4c0b6;
-        
     }
-
-    // .popular__list
-
     &__list {
         margin: 0;
         padding: 0;
@@ -232,16 +168,10 @@ ul {
         margin-top: 52px;
         margin-bottom: 86px;
     }
-
-    // .popular__item
-
     &__item {
         background-color: #fdfdfb;
         width: 370px;
     }
-
-    // .popular__card
-
     &__card {
         padding-bottom: 40px;
     }
@@ -254,9 +184,6 @@ ul {
 }
 
 .card {
-    
-    // .card__title
-
     &__title {
         font-family: "Playfair Display", serif;
         font-weight: 700;
@@ -268,9 +195,6 @@ ul {
         margin-top: 40px;
         margin-left: 40px;
     }
-
-    // .card__price
-
     &__price {
         font-family: 'Prata', serif;
         font-weight: 400;
@@ -280,15 +204,9 @@ ul {
         margin: 0;
         margin-left: 40px;
     }
-
-    // .card__img
-
     &__img {
         filter: drop-shadow(2px 2px 10px rgba(85, 82, 72, 0.23));
     }
-
-    // .card__link
-
     &__link {
         font-family: "Playfair Display", serif;
         font-size: 16px;
@@ -312,9 +230,6 @@ ul {
 
 .advantages {
     background-color: #fdfdfb;
-    
-    // .advantages__list
-
     &__list {
         margin: 0;
         padding: 0;
@@ -322,37 +237,14 @@ ul {
         margin-top: 52px;
         margin-bottom: 20px;
     }
-
-    // .advantages__item
-
     &__item {
         display: flex;
         gap: 69px;
     }
-
-    // .advantages__left
-
-    &__left {
-        
-    }
-
-    // .advantages__img
-
-    &__img {}
-
-    // .advantages__right
-
-    &__right {}
-
-    // .advantages__title
-
     &__title {
         margin: 0;
         margin-top: 88px;
     }
-
-    // .advantages__description
-
     &__description {
         display: block;
         width: 376px;
@@ -363,9 +255,6 @@ ul {
         margin-top: 38px;
         margin-bottom: 70px;
     }
-
-    // .advantages__link
-
     &__link {
         font-weight: 500;
         font-size: 12px;
@@ -376,31 +265,16 @@ ul {
         padding: 26px 38px;
         background-color: #D4B098;
     }
-
-    // .advantages__slider-control
-
     &__slider-control {
         margin-left: 552px;
         
     }
-
-    // .advantages__button
-
     &__button {
         background: none;
 	    border: none;
 	    outline: inherit;
         margin-bottom: 21px;
     }
-}
-
-.visually-hidden {}
-
-.slider-control {
-
-    // .slider-control__position
-
-    &__position {}
 }
 
 .news-company {
@@ -413,16 +287,10 @@ ul {
         margin: 0;
         margin-left: 97px;
     }
-
-    // .news-company__text
-
     &__text {
         margin: 0;
         margin-top: 140px;
     }
-
-    // .news-company__description
-
     &__description {
         display: block;
         width: 376px;
@@ -432,37 +300,21 @@ ul {
         margin: 0;
         margin-top: 40px;
     }
-
-    // .news-company__socials
-
-    &__socials {
-        
-    }
-
-    // .news-company__right
-
     &__right {
-        
         display: flex;
-        
         gap: 10px;
     }
-    // .news-company__img
-
     &__img-list {
         display: flex;
         flex-direction: column;
-       
         gap: 10px;
     }
     &:last-child{
         height: 460px;
     }
-    
 }
 
 .socials {    
-
     &__list {
         margin: 0;
         padding: 0;
@@ -471,14 +323,6 @@ ul {
         gap: 18px;
         margin-bottom: 63px;
     }
-
-    // .socials__item
-
-    &__item {}
-
-    // .socials__link
-
-    &__link {}
 }
 
 .page-footer {
@@ -486,34 +330,15 @@ ul {
     display: flex;
     justify-content: space-between;
     gap: 118px;
-    
     padding: 67px 182px;
-    
-    // .page-footer__column
-
-    &__column {
-        
-        
-        
-    }
-
-    // .page-footer__logo
-
     &__logo {
         margin-bottom: 23px;
-        
     }
-
-    // .page-footer__wrapper
-
     &__wrapper {
        display: flex;
        flex-direction: column;
        gap: 15px;
     }
-
-    // .page-footer__link
-
     &__link {
         font-size: 12px;
         line-height: 14px;
@@ -521,14 +346,6 @@ ul {
         text-decoration: none;	
         display:block;
     }
-
-    // .page-footer__column--about
-
-    &__column--about {
-        
-    }
-
-    // .page-footer__title
 
     &__title {
         font-weight: 700;
@@ -540,9 +357,6 @@ ul {
         margin: 0;
         margin-bottom: 33px;
     }
-
-    // .page-footer__list
-
     &__list {
         margin: 0;
         padding: 0;
@@ -550,12 +364,4 @@ ul {
         flex-direction: column;
         gap: 15px;
     }
-
-    // .page-footer__item
-
-    &__item {}
 }
-
-.page-footer-column--logo {}
-
-.logo {}
